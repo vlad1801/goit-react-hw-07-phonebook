@@ -1,0 +1,49 @@
+.contactForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+}
+
+.contactForm > label {
+  display: flex;
+  flex-direction: column;
+  width: 150px;
+  font-weight: 600;
+  font-size: 20px;
+  gap: 5px;
+}
+
+.input {
+  border-radius: 5px;
+  line-height: 1.5;
+  border: 1px solid #000000;
+}
+
+.addBtn {
+  width: fit-content;
+  border-radius: 5px;
+  border: 1px solid #000000;
+}
+
+.contactList {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.deleteBtn {
+  border-radius: 10px;
+  border: 1px solid #000000;
+  background-color: #dbdbdb;
+  transition: background-color 100ms linear;
+}
+
+.deleteBtn:hover {
+  background-color: #828282;
+}
+
+.contactNumber {
+  font-weight: 500;
+  margin-right: 10px;
+}
